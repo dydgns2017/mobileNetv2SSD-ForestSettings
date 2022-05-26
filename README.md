@@ -44,6 +44,8 @@ conda install ipykernel -y
 
 ### 2. Sample Execution
 
+- [sample code](./sample.ipynb)
+
 ### Reference
 
 - https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/
