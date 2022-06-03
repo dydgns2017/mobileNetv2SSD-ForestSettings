@@ -46,6 +46,27 @@ conda install ipykernel -y
 
 - [sample code](./sample.ipynb)
 
+### 3. Training Sample Dataset & Test
+
+- download dataset sample : https://public.roboflow.com/object-detection/mask-wearing/4/download
+
+```bash
+mkdir Tensorflow/workspace && mkdir Tensorflow/workspace/mask_detection
+cd Tensorflow/workspace/mask_detection
+mkdir annotations
+mkdir exported-models
+mkdir -p images/test
+mkdir -p images/train
+mkdir models
+mkdir pre-trained-models
+```
+
+- [use sample dataset train code](./sample_train.ipynb)
+
+### 4. Training Custom Dataset & Test
+
+
+
 ### Reference
 
 - https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/
